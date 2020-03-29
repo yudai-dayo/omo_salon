@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class TribeTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations...
      *
      * @return void
      */
