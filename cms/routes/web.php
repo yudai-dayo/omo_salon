@@ -10,10 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Tribe;
+use Illuminate\Http\Request;
+
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('tribes');
 });
+
+
 
 Auth::routes();
 

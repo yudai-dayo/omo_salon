@@ -20,7 +20,7 @@ class TribeTable extends Migration
             $table->string('user_password');
             $table->integer('user_image');
             $table->string('user_address');
-            $table->increments('user_gender');
+            $table->string('user_gender');
             $table->dateTime('user_birth');
             $table->boolean('instructor');
             $table->dateTime('user_created');
